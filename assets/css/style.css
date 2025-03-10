@@ -1,11 +1,16 @@
 /*IMPORT FONT*/
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 * {
   scroll-behavior: smooth;
@@ -28,6 +33,7 @@ nav img {
 
 .navbar {
   background-color: #B9B28A !important;
+  font-family: "Merriweather Sans" !important;
 }
 
 .nav-link {
@@ -61,14 +67,15 @@ nav img {
     font-size: 5rem;
     font-weight: bold;
     color:#FFF0BD;
-    font-family: "Luckiest Guy";
+    font-family: "Staatliches";
 }
 
 .content-home .tagline {
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-family: "Shippori Antique";
     color:#B9B28A;
 }
 
@@ -92,6 +99,7 @@ nav img {
   font-size: 50px;
   transition: transform 0.5s ease-out;
 }
+
 
 .arrow-down:hover {
   color: white;
@@ -312,15 +320,15 @@ nav img {
     font-size: 40px;
     color: #fff;
     text-transform: capitalize;
-    font-family: "Walter Turncoat";
+    font-family: "Viga";
     font-weight: bold;
     line-height: 32px;
   }
   
   .card-ulasan .card__content .card__describe {
     color: #fff;
-    font-size: 19px;
-    font-family: "Madimi One";
+    font-size: 17px;
+    font-family: "Nokora";
     padding-top: 10px;
   }
 
@@ -371,8 +379,12 @@ nav img {
   width: 230px;
   height: auto;
   border-radius: 20px;
+  transition: transform 0.5s ease-out;
 }
 
+.container-galery img:hover {
+  transform: scale(1.10);
+}
 /*FOOTER*/
 
 .footer {
